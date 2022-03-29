@@ -1,4 +1,4 @@
-/*if(message.content.startsWith("embed") || message.content.startsWith(prefix + "embed")){
+if(message.content.startsWith("embed") || message.content.startsWith(prefix + "embed")){
     let embed = new Discord.MessageEmbed()                   //création de l'emebd
         .setColor("#fff")                                    //code héxadécimal de la couleur
         .setTitle("Embed")                                   //titre de l'embed
@@ -8,4 +8,4 @@
         .addField("Titre champ 2 ", "Contenu champ 2")       //      ''
         .addField("Titre champ 3", "Contenu champ 3")        //      ''
     message.channel.send({embeds : [embed]})                 //envoi de l'embed
-}*/
+}
